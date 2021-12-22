@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=52:90:1A:CB:8B:7E:6C:A0:62:3C:42:52:D7:DA:D2:3E:9A:61:CD:80%3Bkz.ukteplo.uktsgisviewer
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    kz.ukteplo.uktsgisviewer
+
+    SHA-1 certificate fingerprint:
+    52:90:1A:CB:8B:7E:6C:A0:62:3C:42:52:D7:DA:D2:3E:9A:61:CD:80
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB2-c3sZv2d_O8a5zA3PQYcDtweT9zqAwQ</string>
+</resources>
