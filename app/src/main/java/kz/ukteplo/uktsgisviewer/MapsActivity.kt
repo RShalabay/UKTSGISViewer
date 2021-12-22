@@ -78,7 +78,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, CoroutineScope {
         job = Job()
 
         try{
-            /*launch(Dispatchers.IO) {
+            launch(Dispatchers.IO) {
                 layer = KmlLayer(mMap, R.raw.streets, applicationContext)
                 launch(Dispatchers.Main) {
                     layer.addLayerToMap()
@@ -86,7 +86,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, CoroutineScope {
                 }
                 Log.d("MAP", "Слой Улицы загружен")
             }
-            launch(Dispatchers.IO) {
+           launch(Dispatchers.IO) {
                 layer1 = KmlLayer(mMap, R.raw.house, applicationContext)
                 launch(Dispatchers.Main) {
                     layer1.addLayerToMap()
@@ -111,7 +111,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, CoroutineScope {
                     Toast.makeText(applicationContext, "Слой Метки загружен", Toast.LENGTH_SHORT)
                 }
                 Log.d("MAP", "Слой Метки загружен")
-            }*/
+            }
 
             launch(Dispatchers.IO) {
                 layer4 = KmlLayer(mMap, R.raw.net, applicationContext)
